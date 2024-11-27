@@ -12,6 +12,7 @@
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.82",
           "Microsoft.Maui.Controls.Compatibility": "8.0.82",
+          "Plugin.Maui.Audio": "3.0.1",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.44"
         },
         "runtime": {
@@ -444,6 +445,14 @@
             "fileVersion": "1.5.0.0"
           }
         }
+      },
+      "Plugin.Maui.Audio/3.0.1": {
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
       }
     }
   },
@@ -618,6 +627,13 @@
       "sha512": "sha512-qzzWG8rxZyzKzBuUdwr4ApezMINf+NT2b8EiEE5fchczNJJmDwlHImMWxX1pHK1W8Yby99alqLyC8DB0fIrhuA==",
       "path": "microsoft.windowsappsdk/1.5.240627000",
       "hashPath": "microsoft.windowsappsdk.1.5.240627000.nupkg.sha512"
+    },
+    "Plugin.Maui.Audio/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bVbILV34AhaGOfVzcKXYl3zgZXZD7TrgyKSvG014z4uMhRNoq1reVwQXIOok6elpIgPWQ1o+j6o88ZqteTS8Fw==",
+      "path": "plugin.maui.audio/3.0.1",
+      "hashPath": "plugin.maui.audio.3.0.1.nupkg.sha512"
     }
   }
 }

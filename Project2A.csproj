@@ -57,9 +57,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Raw\GrayLetter.mp3" />
+	  <None Remove="Resources\Raw\GreenLetter.mp3" />
+	  <None Remove="Resources\Raw\LevelPassed.mp3" />
+	  <None Remove="Resources\Raw\LevelUpBonus.mp3" />
+	  <None Remove="Resources\Raw\LevelUpWithHint.mp3" />
+	  <None Remove="Resources\Raw\YellowLetter.mp3" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Plugin.Maui.Audio" Version="3.0.1" />
 	</ItemGroup>
 
 </Project>
