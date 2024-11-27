@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-26T20:04:24.023</Modified>
+      <Modified>2024-11-27T14:39:27.513</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Project2A.dll">
       <PackagePath>Project2A.dll</PackagePath>
-      <Modified>2024-11-26T20:04:23.268</Modified>
+      <Modified>2024-11-27T14:39:26.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Project2A.exe</PackagePath>
-      <Modified>2024-11-26T20:04:23.297</Modified>
+      <Modified>2024-11-27T14:39:26.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

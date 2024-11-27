@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using System.Text.Json;
@@ -46,7 +47,7 @@ namespace Project2A
 
                         foreach (var word in WordList)
                         {
-                            Console.WriteLine(word);
+                            //Debug.WriteLine(word);
                         }
                     }
                 }

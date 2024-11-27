@@ -51,6 +51,7 @@ namespace Project2A
                 OnPropertyChanged(nameof(WordListSorted));
                 }
             }
+
         
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)

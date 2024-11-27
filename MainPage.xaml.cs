@@ -1,4 +1,6 @@
-﻿
+﻿using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
+
 namespace Project2A
 {
     public partial class MainPage : ContentPage
@@ -7,9 +9,24 @@ namespace Project2A
         private WordViewModel wordViewModel;
         private SortedWords sortedWords;
         private string selectedWord;
+        public int guesses;
 
         Grid grid;
 
+        private async void InitializeGame()
+        {
+
+            guesses = 0;
+            wordGrid.Children.Clear();
+            wordGrid.RowDefinitions.Clear();
+
+            await wordViewModel.GetWords();
+            sortedWords.SortWords();
+            BindingContext = sortedWords;
+
+            selectedWord = getWord();
+            Debug.WriteLine("Selected Word: " + selectedWord);
+        }
 
         public MainPage()
         { 
@@ -22,14 +39,7 @@ namespace Project2A
 
         protected override async void OnAppearing()
         {
-            base.OnAppearing();
-
-            await wordViewModel.GetWords();
-            sortedWords.SortWords();
-            BindingContext = sortedWords;
-            
-            selectedWord = getWord();
-            Console.WriteLine("Selected Word: " + selectedWord);
+            InitializeGame();
         }
 
         private String getWord()
@@ -38,30 +48,30 @@ namespace Project2A
             if (sortedWords.WordListSorted.Count > 0)
             {
                 int randomIndex = random.Next(sortedWords.WordListSorted.Count);
-                return sortedWords.WordListSorted[randomIndex];
+                string word = sortedWords.WordListSorted[randomIndex];
+                return word;
             }
             else
             {
-                Console.WriteLine("No Words");
+                Debug.WriteLine("No Words");
                 return string.Empty;
             }
         }
-        public void createWord(String selectedWord)
+        public async void createWord(String selectedWord)
         {
+            Debug.WriteLine("createWord called with selectedWord: " + selectedWord);
+            selectedWord = selectedWord.ToUpper();
             int index = wordGrid.RowDefinitions.Count;
-            string word = entry1.Text;
-            string wordFormat = word.ToUpper();
+            string word = entry1.Text.ToUpper();
             Color BGColor = Color.FromArgb("#ecf7e6");
             wordGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
-
-
             for (int i = 0; i < word.Length; i++)
             {
-                if (wordFormat[i] == selectedWord[i])
+                if (word[i] == selectedWord[i])
                 {
                     BGColor = Color.FromArgb("#66eb23");
                 }
-                else if (selectedWord.Contains(wordFormat[i])) {
+                else if (selectedWord.Contains(word[i])) {
                     BGColor = Color.FromArgb("#ebed51");
                 }            
                 else
@@ -75,7 +85,7 @@ namespace Project2A
                     Content = new Label
                     {
 
-                        Text = wordFormat[i].ToString(),
+                        Text = word[i].ToString(),
                         FontSize = 24,
                         HorizontalTextAlignment = TextAlignment.Center,
                         VerticalTextAlignment = TextAlignment.Center
@@ -92,11 +102,35 @@ namespace Project2A
                 Grid.SetColumn(letterFrame, i);
                 Grid.SetRow(letterFrame, index);
             }
+            guesses++;
+            if (checkForWin(word, selectedWord) == true)
+            {
+                await DisplayAlert("Correct Word Guessed!", "You have guessed the correct word, press contine to move on to the next work", "Continue");
+                InitializeGame();
+            }
+            else if(guesses == 6)
+            {
+                await DisplayAlert("No Guesses Remainign", "You have not guessed the correct word: "+selectedWord+" press contine to move on to the next word", "Continue");
+                InitializeGame();
+            }
         }
 
         private void Button_Clicked(object sender, EventArgs e)
-        {;
+        {
+            ;
             createWord(selectedWord);
+        }
+
+        private bool checkForWin(String word, String selectedWord)
+        {
+            if (word == selectedWord)
+            {
+                return true;
+            }        
+            else
+            {
+                return false;
+            }
         }
     }
 
