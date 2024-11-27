@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using System.Text.Json;
@@ -44,10 +45,10 @@ namespace Project2A
                     {
                         WordList = new ObservableCollection<string>(wordsFromFile);
 
-                        foreach (var word in WordList)
-                        {
-                            Console.WriteLine(word);
-                        }
+                        //foreach (string word in WordList)
+                        //{
+                            //Debug.WriteLine(word);
+                        //}
                     }
                 }
                      
@@ -59,8 +60,8 @@ namespace Project2A
                 if (response.IsSuccessStatusCode)
                 {
                     string contents = await response.Content.ReadAsStringAsync();
-                    
-                    var words = contents.Split(new[] { '\r', '\n'}, StringSplitOptions.RemoveEmptyEntries);
+
+                    string[] words = contents.Split(separator: new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
                     foreach (var word in words)
                     {

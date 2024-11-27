@@ -40,6 +40,24 @@
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\GrayLetter.mp3">
+      <PackagePath>GrayLetter.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\GreenLetter.mp3">
+      <PackagePath>GreenLetter.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\LevelPassed.mp3">
+      <PackagePath>LevelPassed.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\LevelUpBonus.mp3">
+      <PackagePath>LevelUpBonus.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\LevelUpWithHint.mp3">
+      <PackagePath>LevelUpWithHint.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\YellowLetter.mp3">
+      <PackagePath>YellowLetter.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -321,6 +339,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\.nuget\packages\plugin.maui.audio\3.0.1\lib\net8.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\.nuget\packages\microsoft.maui.controls.core\8.0.82\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

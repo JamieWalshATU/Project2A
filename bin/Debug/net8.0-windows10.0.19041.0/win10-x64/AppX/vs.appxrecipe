@@ -29,29 +29,53 @@
     <AppXManifest Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-26T20:04:24.023</Modified>
+      <Modified>2024-11-27T16:37:19.385</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-26T18:50:53.054</Modified>
+      <Modified>2024-11-27T16:00:57.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Project2A.runtimeconfig.json">
       <PackagePath>Project2A.runtimeconfig.json</PackagePath>
-      <Modified>2024-11-26T18:50:52.469</Modified>
+      <Modified>2024-11-27T16:00:57.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Project2A.dll">
       <PackagePath>Project2A.dll</PackagePath>
-      <Modified>2024-11-26T20:04:23.268</Modified>
+      <Modified>2024-11-27T16:37:18.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Project2A.exe</PackagePath>
-      <Modified>2024-11-26T20:04:23.297</Modified>
+      <Modified>2024-11-27T16:37:18.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-11-25T17:21:10.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\GrayLetter.mp3">
+      <PackagePath>GrayLetter.mp3</PackagePath>
+      <Modified>2024-11-27T15:12:01.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\GreenLetter.mp3">
+      <PackagePath>GreenLetter.mp3</PackagePath>
+      <Modified>2024-11-27T15:14:08.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\LevelPassed.mp3">
+      <PackagePath>LevelPassed.mp3</PackagePath>
+      <Modified>2024-11-27T15:11:14.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\LevelUpBonus.mp3">
+      <PackagePath>LevelUpBonus.mp3</PackagePath>
+      <Modified>2024-11-27T15:13:31.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\LevelUpWithHint.mp3">
+      <PackagePath>LevelUpWithHint.mp3</PackagePath>
+      <Modified>2024-11-27T15:13:08.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\YellowLetter.mp3">
+      <PackagePath>YellowLetter.mp3</PackagePath>
+      <Modified>2024-11-27T15:11:29.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -287,7 +311,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Project2A.deps.json">
       <PackagePath>Project2A.deps.json</PackagePath>
-      <Modified>2024-11-26T18:50:52.188</Modified>
+      <Modified>2024-11-27T16:00:57.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -428,6 +452,10 @@
     <AppxPackagedFile Include="C:\Users\matte\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-06-26T19:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\.nuget\packages\plugin.maui.audio\3.0.1\lib\net8.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+      <Modified>2024-09-10T07:07:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\.nuget\packages\microsoft.maui.controls.core\8.0.82\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
