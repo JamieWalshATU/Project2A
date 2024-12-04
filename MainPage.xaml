@@ -8,7 +8,8 @@
         <Entry x:Name="entry1"></Entry>
         <Button Text="Click" Clicked="Button_Clicked"/>
         <Grid x:Name="wordGrid" RowSpacing="10" ColumnSpacing="10" Padding="10">
-           
+            <Image Source="bg1.png" Aspect="AspectFill"
+               HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
