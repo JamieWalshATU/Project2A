@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-27T16:37:19.385</Modified>
+      <Modified>2024-12-04T10:22:32.988</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-27T16:00:57.935</Modified>
+      <Modified>2024-11-27T17:35:44.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Project2A.runtimeconfig.json">
       <PackagePath>Project2A.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Project2A.dll">
       <PackagePath>Project2A.dll</PackagePath>
-      <Modified>2024-11-27T16:37:18.587</Modified>
+      <Modified>2024-12-04T10:22:32.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Project2A.exe</PackagePath>
-      <Modified>2024-11-27T16:37:18.608</Modified>
+      <Modified>2024-12-04T10:22:32.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -107,207 +107,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-11-26T18:50:40.757</Modified>
+      <Modified>2024-11-27T17:35:25.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.728</Modified>
+      <Modified>2024-11-27T17:35:25.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.728</Modified>
+      <Modified>2024-11-27T17:35:25.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.727</Modified>
+      <Modified>2024-11-27T17:35:25.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.726</Modified>
+      <Modified>2024-11-27T17:35:25.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.726</Modified>
+      <Modified>2024-11-27T17:35:25.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.748</Modified>
+      <Modified>2024-11-27T17:35:25.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.747</Modified>
+      <Modified>2024-11-27T17:35:25.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.745</Modified>
+      <Modified>2024-11-27T17:35:25.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.746</Modified>
+      <Modified>2024-11-27T17:35:25.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.746</Modified>
+      <Modified>2024-11-27T17:35:25.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.751</Modified>
+      <Modified>2024-11-27T17:35:25.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.750</Modified>
+      <Modified>2024-11-27T17:35:25.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.748</Modified>
+      <Modified>2024-11-27T17:35:25.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.750</Modified>
+      <Modified>2024-11-27T17:35:25.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.749</Modified>
+      <Modified>2024-11-27T17:35:25.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.757</Modified>
+      <Modified>2024-11-27T17:35:25.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.756</Modified>
+      <Modified>2024-11-27T17:35:25.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.756</Modified>
+      <Modified>2024-11-27T17:35:25.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.755</Modified>
+      <Modified>2024-11-27T17:35:25.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.755</Modified>
+      <Modified>2024-11-27T17:35:25.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.754</Modified>
+      <Modified>2024-11-27T17:35:25.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.754</Modified>
+      <Modified>2024-11-27T17:35:25.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.752</Modified>
+      <Modified>2024-11-27T17:35:25.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.753</Modified>
+      <Modified>2024-11-27T17:35:25.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.752</Modified>
+      <Modified>2024-11-27T17:35:25.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.735</Modified>
+      <Modified>2024-11-27T17:35:25.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.735</Modified>
+      <Modified>2024-11-27T17:35:25.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.734</Modified>
+      <Modified>2024-11-27T17:35:25.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.733</Modified>
+      <Modified>2024-11-27T17:35:25.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.732</Modified>
+      <Modified>2024-11-27T17:35:25.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.739</Modified>
+      <Modified>2024-11-27T17:35:25.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.738</Modified>
+      <Modified>2024-11-27T17:35:25.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.737</Modified>
+      <Modified>2024-11-27T17:35:25.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.736</Modified>
+      <Modified>2024-11-27T17:35:25.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.736</Modified>
+      <Modified>2024-11-27T17:35:25.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.744</Modified>
+      <Modified>2024-11-27T17:35:25.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.743</Modified>
+      <Modified>2024-11-27T17:35:25.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.741</Modified>
+      <Modified>2024-11-27T17:35:25.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.740</Modified>
+      <Modified>2024-11-27T17:35:25.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.740</Modified>
+      <Modified>2024-11-27T17:35:25.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.731</Modified>
+      <Modified>2024-11-27T17:35:25.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.730</Modified>
+      <Modified>2024-11-27T17:35:25.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.730</Modified>
+      <Modified>2024-11-27T17:35:25.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.729</Modified>
+      <Modified>2024-11-27T17:35:25.244</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.729</Modified>
+      <Modified>2024-11-27T17:35:25.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bg1.scale-100.PNG">
+      <PackagePath>bg1.scale-100.PNG</PackagePath>
+      <Modified>2024-11-27T17:35:25.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.725</Modified>
+      <Modified>2024-11-27T17:35:25.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.724</Modified>
+      <Modified>2024-11-27T17:35:25.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.723</Modified>
+      <Modified>2024-11-27T17:35:25.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.722</Modified>
+      <Modified>2024-11-27T17:35:25.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-11-26T18:50:40.722</Modified>
+      <Modified>2024-11-27T17:35:25.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\matte\OneDrive - Atlantic TU\Courses\Second Year\Cross-Platfrom Application Development\Project2\Project2A\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Project2A.deps.json">
       <PackagePath>Project2A.deps.json</PackagePath>
