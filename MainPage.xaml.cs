@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection.PortableExecutable;
 using System;
+using System.Linq.Expressions;
 
 namespace Project2A
 {
@@ -20,9 +21,8 @@ namespace Project2A
 
         Grid grid;
 
-        private async void InitializeGame()
+        private async Task InitializeGame()
         {
-
             guesses = 0;
             wordGrid.Children.Clear();
             wordGrid.RowDefinitions.Clear();
@@ -31,8 +31,29 @@ namespace Project2A
             sortedWords.SortWords();
             BindingContext = sortedWords;
 
-            selectedWord = getWord();
+            selectedWord = await SelectedWordSaving.LoadSelectedWordAsync();
+            if (string.IsNullOrEmpty(selectedWord))
+            {
+                selectedWord = getWord();
+            }
+            await SelectedWordSaving.SaveSelectedWordAsync(selectedWord); 
+
+            if (string.IsNullOrEmpty(selectedWord))
+            {
+                Debug.WriteLine("Failed to select a word.");
+                await DisplayAlert("Error", "No valid word selected. Restart the game.", "OK");
+                return;
+            }
             Debug.WriteLine("Selected Word: " + selectedWord);
+
+            guessEntries = await SerializeEntryList.LoadEntriesAsync();
+            if (guessEntries.Count > 0)
+            {
+                foreach (string entry in guessEntries)
+                {
+                    createWord(selectedWord, entry, true);
+                }
+            }
         }
 
         public MainPage()
@@ -47,17 +68,7 @@ namespace Project2A
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-
-            InitializeGame();
-            guessEntries = await SerializeEntryList.LoadEntriesAsync();
-
-            if (guessEntries.Count > 0)
-            {
-                foreach (string entry in guessEntries)
-                {
-                    createWord(selectedWord, entry);
-                }
-            }
+            await InitializeGame();
         }
 
         private String getWord()
@@ -75,7 +86,7 @@ namespace Project2A
                 return string.Empty;
             }
         }
-        public async void createWord(String selectedWord, String guessedWord)
+        public async void createWord(String selectedWord, String guessedWord, Boolean loadingEntry)
         {
             Debug.WriteLine("createWord called with selectedWord: " + selectedWord);
             selectedWord = selectedWord.ToUpper();
@@ -121,9 +132,16 @@ namespace Project2A
                         BackgroundColor = BGColor,
                         HeightRequest = 100
                     };
-                    await Task.Delay(500);
-                    wordGrid.Children.Add(letterFrame);
-                    await player.PlayAudio();
+                    if (loadingEntry == false)
+                    {
+                        await Task.Delay(500);
+                        wordGrid.Children.Add(letterFrame);
+                        await player.PlayAudio();
+                    }
+                    else if (loadingEntry == true)
+                    {
+                        wordGrid.Children.Add(letterFrame);
+                    }
 
                     Grid.SetColumn(letterFrame, i);
                     Grid.SetRow(letterFrame, index);
@@ -135,12 +153,19 @@ namespace Project2A
                     await player.PlayAudio();
                     await DisplayAlert("Correct Word Guessed!", "You have guessed the correct word, press contine to move on to the next word", "Continue");
                     guessEntries.Clear();
-                    InitializeGame();
+                    await SerializeEntryList.SaveEntriesAsync(guessEntries);
+                    selectedWord = getWord();
+                    await SelectedWordSaving.SaveSelectedWordAsync(selectedWord);
+                    await InitializeGame();
                 }
                 else if (guesses == 6)
                 {
                     await DisplayAlert("No Guesses Remainign", "You have not guessed the correct word: " + selectedWord + " press contine to move on to the next word", "Continue");
-                    InitializeGame();
+                    guessEntries.Clear();
+                    await SerializeEntryList.SaveEntriesAsync(guessEntries);
+                    selectedWord = getWord();
+                    await SelectedWordSaving.SaveSelectedWordAsync(selectedWord);
+                    await InitializeGame();
                 }
             }
             else
@@ -159,7 +184,7 @@ namespace Project2A
                     guessEntries.Add(word);
                     await SerializeEntryList.SaveEntriesAsync(guessEntries);
                 }
-                createWord(selectedWord, word);
+                createWord(selectedWord, word, false);
             }
         }
 
@@ -214,5 +239,53 @@ namespace Project2A
             }
             return loadedEntries;
         }
+    }
+    public class SelectedWordSaving // This will become game settings and scores
+    {
+        private static string appData = FileSystem.AppDataDirectory;
+        private static string selectedWordFilePath = Path.Combine(appData, "selectedWord.json");
+
+        public static async Task SaveSelectedWordAsync(string selectedWord)
+        {
+            try
+            {
+                string json = JsonSerializer.Serialize(selectedWord);
+                using (StreamWriter writer = new StreamWriter(selectedWordFilePath))
+                {
+                    await writer.WriteAsync(json);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Error saving selected word");
+            }
+
+        }
+        public static async Task<string> LoadSelectedWordAsync()
+        {
+            if (!System.IO.File.Exists(selectedWordFilePath))
+            {
+                Debug.WriteLine("Selected word file does not exist.");
+                return string.Empty;
+            }
+            try
+            {
+                using (StreamReader reader = new StreamReader(selectedWordFilePath))
+                {
+                    string json = await reader.ReadToEndAsync();
+
+                    string selectedWord = JsonSerializer.Deserialize<string>(json);
+
+                    return selectedWord;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Error loading selected word");
+            }
+            return string.Empty;
+                
+        }
+
     }
 }
