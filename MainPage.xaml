@@ -3,23 +3,79 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project2A.MainPage"
              xmlns:local="clr-namespace:Project2A">
-
-    <VerticalStackLayout Padding="10">
-        <Entry x:Name="entry1"></Entry>
-        <Button Text="Click" Clicked="Button_Clicked"/>
-        <Grid x:Name="wordGrid" RowSpacing="10" ColumnSpacing="10" Padding="10">
-            <Image Source="bg1.png" Aspect="AspectFill"
-               HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-    </VerticalStackLayout>
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Grid x:Name="topGrid" RowSpacing="10" ColumnSpacing="10" Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Frame BorderColor="Black" Padding="10" CornerRadius="5" HasShadow="True" BackgroundColor="#ecf7e6" HeightRequest="100">
+                    <Label Text="A" HorizontalOptions="Center" VerticalOptions="Center" FontSize="50"/>
+                </Frame>
+            </Grid>
+            <Frame Padding="160, 0, 160, 0" CornerRadius="5">
+                <Grid x:Name="wordGrid" RowSpacing="10" ColumnSpacing="10" Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </Frame>
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                    <Button Text="Q" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="W" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="E" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="R" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="T" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="Y" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="U" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="I" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="O" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="P" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Padding="20,0,0,0">
+                    <Button Text="A" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="S" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked"/>
+                    <Button Text="D" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked"/>
+                    <Button Text="F" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked"/>
+                    <Button Text="G" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="H" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="J" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="K" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="L" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Padding="50,0,0,0">
+                    <Button Text="Z" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="X" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="C" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="V" WidthRequest="40" HeightRequest="40"  Clicked="OnKeyClicked"/>
+                    <Button Text="B" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked"/>
+                    <Button Text="N" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked"/>
+                    <Button Text="M" WidthRequest="40" HeightRequest="40" Clicked="OnKeyClicked" />
+                    <Button Text="Delete" WidthRequest="80" HeightRequest="40" BackgroundColor="Red" TextColor="White" Clicked="OnKeyClicked" />
+                </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Padding="10,0,0,0">
+                <Button Text="Enter" WidthRequest="80" HeightRequest="40" BackgroundColor="Green" TextColor="White" Clicked="OnKeyClicked" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

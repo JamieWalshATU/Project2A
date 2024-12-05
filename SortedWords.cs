@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
 namespace Project2A
 {
@@ -29,7 +23,7 @@ namespace Project2A
         //Sorts words and creates a subset of 30
         public void SortWords()
         {
-            if (_wordViewModel.WordList != null)
+            if (_wordViewModel.WordList != null && _wordViewModel.WordList.Count > 0)
             {
 
                 Random random = new Random();
@@ -46,9 +40,14 @@ namespace Project2A
                 }
                 //Sorts words alphabetically, this is helpful for when debuging but is not nessecary
                 selectedWords.Sort(StringComparer.Ordinal);
+                WordListSorted = selectedWords;
+                Debug.WriteLine($"Sorted {WordListSorted.Count} words.");
+            }
+            else
+            {
+                Debug.WriteLine("WordList is empty or null.");
             }
         }
     }
 }
 
-          

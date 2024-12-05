@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
+﻿using System.Text.Json;
 using System.Diagnostics;
-using System.IO;
-using System.Net.Http;
-using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace Project2A
 {
@@ -44,6 +37,8 @@ namespace Project2A
                     {
                         //updates wordList
                         WordList = new List<string>(wordsFromFile);
+                        Debug.WriteLine($"Loaded {WordList.Count} words from file.");
+
                     }
                 }
 
@@ -51,6 +46,7 @@ namespace Project2A
 
             else // if file does not exist, create file from api
             {
+                Debug.WriteLine("File not found. Fetching words from API.");
                 var response = await httpClient.GetAsync("https://raw.githubusercontent.com/DonH-ITS/jsonfiles/main/words.txt");
                 if (response.IsSuccessStatusCode)
                 {
@@ -62,6 +58,7 @@ namespace Project2A
                     {
                         WordList.Add(word);
                     }
+                    Debug.WriteLine($"Loaded {WordList.Count} words from API.");
                     string jsonarray = JsonSerializer.Serialize(WordList);
                     //serializes file and saves
                     using (StreamWriter writer = new StreamWriter(filePath))

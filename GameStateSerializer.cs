@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Text.Json;
 
 namespace Project2A
@@ -52,16 +46,15 @@ namespace Project2A
             }
             return loadedEntries;
         }
-    
+
         private static string selectedWordFilePath = Path.Combine(appData, "selectedWord.json");
         //Saves word to be guessed, will be used for other game settings later
         public static async Task SaveSelectedWordAsync(string selectedWord)
         {
-            string filePath = Path.Combine(appData, "selectedWord.json");
             try
             {
-                string json = JsonSerializer.Serialize(filePath);
-                using (StreamWriter writer = new StreamWriter(filePath))
+                string json = JsonSerializer.Serialize(selectedWord);
+                using (StreamWriter writer = new StreamWriter(selectedWordFilePath))
                 {
                     await writer.WriteAsync(json);
                 }
@@ -79,7 +72,7 @@ namespace Project2A
             if (!System.IO.File.Exists(selectedWordFilePath))
             {
                 Debug.WriteLine("Selected word file does not exist.");
-                return string.Empty;
+                return "ERROR";
             }
             try
             {
@@ -101,5 +94,5 @@ namespace Project2A
         }
 
     }
-    
+
 }
