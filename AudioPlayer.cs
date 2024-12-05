@@ -1,11 +1,11 @@
-﻿using Microsoft.Maui.Controls.PlatformConfiguration;
-using Plugin.Maui.Audio;
-
-namespace Project2A {
+﻿using Plugin.Maui.Audio;
+//Basic Audio Player
+namespace Project2A
+{
     public partial class AudioPlayer
     {
         private IAudioPlayer player;
-        
+
         public async Task CreateAudioPlayer(String filename)
         {
             var filePath = await FileSystem.OpenAppPackageFileAsync(filename);
@@ -14,6 +14,7 @@ namespace Project2A {
         public async Task PlayAudio()
         {
             player.Play();
+            await Task.Delay(100);
         }
 
     }
